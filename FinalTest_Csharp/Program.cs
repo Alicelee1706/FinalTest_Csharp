@@ -27,7 +27,8 @@ namespace FinalTest_Csharp
             input(arr, size);
 
             output(arr, size);
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
+
             Console.Clear();
 
             select = 0;
@@ -75,6 +76,11 @@ namespace FinalTest_Csharp
                             sort(arr, size, 0);
                         }
                         if (select == 3)
+                        {
+                            Console.WriteLine();
+                            output(arr, size);
+                        }
+                        if (select == 4)
                         {
                             Console.WriteLine();
                             output(arr, size);
